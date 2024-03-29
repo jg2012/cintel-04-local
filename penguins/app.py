@@ -1,7 +1,7 @@
-import seaborn as sns
 import plotly.express as px
 import palmerpenguins
 import pandas as pd
+import seaborn as sns  # Add this line
 from shiny import reactive, render
 from shiny.express import input, ui
 from shinywidgets import render_plotly
